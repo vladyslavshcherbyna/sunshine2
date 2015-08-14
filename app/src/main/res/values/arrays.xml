@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="metric_preferences_label">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </array>
+    <array name="metric_preferences_keys">
+        <item>metric</item>
+        <item>imperial</item>
+    </array>
+</resources>

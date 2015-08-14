@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="@string/pref_city_key"
+        android:title="@string/pref_city_label"
+        android:defaultValue="@string/pref_city_default"
+        android:inputType="text"
+        android:singleLine="true" />
+    <ListPreference
+        android:entries="@array/metric_preferences_label"
+        android:entryValues="@array/metric_preferences_keys"
+        android:key="@string/pref_metric_list_key"
+        android:title="@string/pref_metric_title"
+        android:dialogTitle="@string/pref_metric_dialog_title"
+        android:defaultValue="@string/pref_metric_default_key"/>
+</PreferenceScreen>
